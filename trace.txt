@@ -1,3 +1,5 @@
 dig @198.41.0.4 www.uber.com +norecurse
 dig @192.12.94.30 www.uber.com +norecurse
 dig @204.74.66.126 www.uber.com +norecurse
+dig @204.74.66.126 frontends-cloudflare.uber.com +norecurse
+dig @204.74.66.126 cloudflare-weighted.uber.com +norecurse
